@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SunbeamCars Inc.</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-wrapper">
+            <img class="logo" src="images/logo.png" alt="Logo of SunbeamCars"/>
+
+            <div class="log-in">
+                <img src="images/avatar.svg" alt="Avatar icon" />
+                <p>Log in</p>
+            </div>
+        </div>
+
+        <section class="hero-section">
+            <img src="images/header-image.jpg" alt="Car dealership with new model cars inside a building" />
+
+            <section class="filters">
+                <h1>Find the car that suits you</h1>
+
+                <form>
+                    <div class="form-row">
+                        <div>
+                            <label for="pickup-date">I Pick it up</label>
+                            <input id="pickup-date" type="date" name="pickup-date">
+                        </div>
+
+                        <div>
+                            <label for="handin-date">I hand it in</label>
+                            <input id="handin-date" type="date" name="handin-date">
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+                        <div>
+                            <label for="persons">Number of persons</label>
+                            <input id="persons" type="number" min="1" max="7" name="persons" value="1">
+                        </div>
+
+                        <div>
+                            <label for="suitcases">Number of suitcases</label>
+                            <select id="suitcases">
+                                <option value="0">0 - only a bag</option>
+                                <option value="1">1 suitcase</option>
+                                <option value="2">2 suitcases</option>
+                                <option value="3">3 suitcases</option>
+                                <option value="4">4 suitcases</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button>Submit</button>
+                </form>
+            </section>
+        </section>
+    </header>
+
+    <main>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
