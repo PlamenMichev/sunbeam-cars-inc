@@ -1,42 +1,42 @@
 [
   {
-    "model": "Mercedes",
+    "model": "Range",
     "persons": 7,
     "bags": 4,
-    "price": 2000,
-    "image": "images/mercedes.png",
-    "type": "Minivan"
+    "image": "images/range-rover.png",
+    "type": "Minivan",
+    "supplementPerDay": 105
   },
   {
-    "model": "BMW",
+    "model": "Audi",
     "persons": 5,
     "bags": 2,
-    "price": 1200,
-    "image": "images/bmw.png",
-    "type": "Standard"
+    "image": "images/audi.png",
+    "type": "Standard",
+    "supplementPerDay": 60
   },
   {
-    "model": "Toyota",
+    "model": "Citroen",
     "persons": 3,
     "bags": 0,
-    "price": 1300,
-    "image": "images/toyota.png",
-    "type": "Budget"
+    "image": "images/citroen.png",
+    "type": "Budget",
+    "supplementPerDay": 0
   },
   {
-    "model": "Tesla",
+    "model": "Renault",
     "persons": 5,
     "bags": 2,
-    "price": 1500,
-    "image": "images/tesla.png",
-    "type": "Standard"
+    "image": "images/renault.png",
+    "type": "Standard",
+    "supplementPerDay": 60
   },
   {
-    "model": "Ferarri",
+    "model": "Bugatti",
     "persons": 3,
     "bags": 0,
-    "price": 2000,
-    "image": "images/ferarri.png",
-    "type": "Budget"
+    "image": "images/bugatti.png",
+    "type": "Budget",
+    "supplementPerDay": 0
   }
 ]

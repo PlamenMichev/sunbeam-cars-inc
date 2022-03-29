@@ -1,0 +1,29 @@
+h1, p, summary {
+    font-family: sans-serif;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 16px;
+}
+
+details:first-of-type {
+    margin-top: 50px;
+}
+
+details {
+    margin-bottom: 15px;
+}
+
+details > summary {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #bf111b;
+}
